@@ -1,0 +1,13 @@
+Funktion:
+* Hämtar rösträkningsresultaten (valnatt.zip) från Valmyndigheten
+* Söker ut data med XPath queries
+* Anropar Google Charts API för att skapa grafik från datat
+* Skapar XML-filer för Escenic 4.3 för att uppdatera grafiken på sajten
+
+Scriptet gör en conditional GET request på valnatt.zip och skapar filer
+enbart om filen ändrats hos Valmyndigheten.
+
+Referenser:
+* http://www.val.se/om_oss/media/teknisk_information/index.html
+* http://code.google.com/apis/chart/
+* http://hd.se/.
